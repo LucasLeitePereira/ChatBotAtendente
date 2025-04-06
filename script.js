@@ -69,7 +69,7 @@ async function sendMessage() {
         const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
             method: 'POST',
             headers: {
-                'Authorization': 'Bearer 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',
+                'Authorization': 'Bearer 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',
                 'Content-Type': 'application/json',
                 'HTTP-Referer': window.location.href,
                 'X-Title': 'Atendente Virtual'
